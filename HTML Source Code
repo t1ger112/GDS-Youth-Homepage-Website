@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" version="0.1.8 no-git-repo, no-video"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GOV.UK Youth Homepage</title>
+</head>
+  <body>
+    <div class="background">
+
+      <header>
+        <div class="topbar">
+          <div class="widthcontainer">
+            <a class="logo" href="https://www.gov.uk/"><svg class="crown" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"height="32" width="36" viewBox="0 0 130 78"><path d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"></path></svg>GOV.UK</a>
+            <a class="menu" href="#menu">MENU</a>
+            <a class="search" href="#search"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 22" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></a>
+          </div>
+        </div>
+        <div class="topbluebar widthcontainer"></div>
+      </header>
+
+      <div class="bigcontainer">
+        <div class="container">
+          <h1 class="big-main-title">Welcome to your government youth homepage. </h1> 
+            <h2 class="main-welcome-message">Here you will find all of the relevant government services that are involved with you becoming a young adult.</h2> 
+              <h2 class="second-main-welcome-message">Select a topic link from the page contents  below to get started:</h2> 
+                <div>
+                  <h2 class="page-contents-title">Page Content Links:</h2>
+                    <div class="page-contents-media">
+                      <div><a href="#Driving-License" class="page-contents-media-link">> Getting Your Driving Licenses</a></div>
+                      <div><a href="#Passport" class="page-contents-media-link">> Getting a Passport</a></div>
+                      <div><a href="#Voting" class="page-contents-media-link">> Getting Registered to Vote</a></div>
+                      <div><a href="#NHS-Website" class="page-contents-media-link">> The NHS Website and Services</a></div>
+                      <div><a href="#git-repo-message" class="page-contents-media-link">> Another Government Service...</a></div>
+                    </div>
+                </div>
+
+
+          <div class="minicontainer">
+
+            <h2 id="Driving-License" class="medium-main-title">> Driving Licences</h2> 
+              <div class="content-container">
+                <br>
+                  
+                <p class="normal-text">Learning to drive is common with many young adults. Most people can start learning to drive when they're 17. View more info through the button below:</p>
+                <div>
+                  <p id="learn-to-drive-info">
+                    <a class="default-button" target="_blank" href="https://www.gov.uk/learn-to-drive-a-car">
+                      <span class="more-info-text">More Info</span>
+                      <svg class="apply-svg-graphic" xmlns="http://www.w3.org/2000/svg" width="17.5" height="25" viewBox="0 0 33 34" focusable="false" aria-hidden="true"><path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path></svg>
+                    </a>
+                  </p>
+                </div>
+
+                <p class="normal-text">To start learning to drive, you must first obtain a provisional driving licence for a car, motorbike, moped or other vehicle from DVLA online.</p>
+                  <br>
+                <p class="normal-text">To apply you must:</p>
+                  <br>
+                <div class="normal-bulleted-text">
+                  <ul>
+                    <li class="individual-bullets">Be at least 15 years and 9 months old</li>
+                    <li class="individual-bullets">Able to <a class="page-contents-media-link underlined-link" target="_blank" href="https://www.gov.uk/driving-eyesight-rules">read a number plate from 20 metres away</a></li>
+                    <li class="individual-bullets">Have been given permission to live in Great Britain (England, Scotland and Wales) for at least 185 days</li>
+                  </ul>
+                </div>
+                
+                <p class="normal-text">If you have already read all of the information, and know all the<a class="page-contents-media-link underlined-link" target="_blank" href="https://www.gov.uk/legal-obligations-drivers-riders"> requirements of driving a vehicle</a> on UK roads. Use the button below to apply for a provisional licence.</p>
+                <div>
+                  <p id="provisional-license-apply">
+                    <a class="default-button" target="_blank" href="https://www.gov.uk/apply-first-provisional-driving-licence">
+                      <span class="apply-here-text">Apply Here</span>
+                      <svg class="apply-svg-graphic" xmlns="http://www.w3.org/2000/svg" width="17.5" height="25" viewBox="0 0 33 34" focusable="false" aria-hidden="true"><path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path></svg>
+                    </a>
+                  </p>
+                </div>
+
+                <p class="normal-text">Another extremely useful government resource to review is the Highway Code, as this outlines all of the rules and regulations around driving. If new to the highway code, you can also view an<a class="page-contents-media-link underlined-link" target="_blank" href="https://www.gov.uk/guidance/the-highway-code/introduction"> introduction to this legislation.</a> Click the button below to view this, and the rules to follow of the Highway Code:</p>
+                <div>
+                  <p id="highway-code-link">
+                    <a class="default-button" target="_blank" href="https://www.gov.uk/guidance/the-highway-code">
+                      <span class="view-here-text">View Here</span>
+                      <svg class="apply-svg-graphic" xmlns="http://www.w3.org/2000/svg" width="17.5" height="25" viewBox="0 0 33 34" focusable="false" aria-hidden="true"><path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path></svg>
+                    </a>
+                  </p>
+                </div>
+           
+              </div>
+            <div class="horisontal-line-spacer"></div>
+
+
+
+            <h2 id="Passport" class="medium-main-title">> Passports</h2> 
+              <div class="content-container">
+                  <br>
+                <p class="normal-text">To venture abroad on holiday, you will be required to own a valid passport to do so.</p>
+                  <br>
+               
+                <p class="normal-text">If you do not already own a valid passport, or an older one has expired, use button below to apply for a new British Passport online.</p>
+                <div>
+                  <p id="passport-apply">
+                    <a class="default-button" target="_blank" href="https://www.gov.uk/apply-renew-passport">
+                      <span class="apply-here-text">Apply Here</span>
+                      <svg class="apply-svg-graphic" xmlns="http://www.w3.org/2000/svg" width="17.5" height="25" viewBox="0 0 33 34" focusable="false" aria-hidden="true"><path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path></svg>
+                    </a>
+                  </p>
+                </div>
+
+                <p class="normal-text">If you wish to lean more about passports, change passport details, or access other passport related services, use the button below to do so. </p>
+                <div>
+                  <p id="passport-more-info">
+                    <a class="default-button" target="_blank" href="https://www.gov.uk/browse/abroad/passports">
+                      <span class="more-info-text">More Info</span>
+                      <svg class="apply-svg-graphic" xmlns="http://www.w3.org/2000/svg" width="17.5" height="25" viewBox="0 0 33 34" focusable="false" aria-hidden="true"><path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path></svg>
+                    </a>
+                  </p>
+                </div>
+
+              </div>  
+            <div class="horisontal-line-spacer"></div>
+
+
+
+            <h2 id="Voting" class="medium-main-title">> Voting Sign-Up</h2> 
+              <div class="content-container">
+                <br>
+                
+                <p class="normal-text">To get onto the electoral register, so that you can vote in elections or referendums, you will need to sign-up to vote first.</p>
+                  <br>
+                <p class="normal-text">To register to vote you must:</p>
+                  <br>
+                    <div class="normal-bulleted-text">
+                      <ul>
+                        <li class="individual-bullets">Be aged 16 or over (or 14 or over in Scotland and Wales).</li>
+                      </ul>
+                    </div>
+                <p class="normal-text">You normally only need to register once - not for every election. You'll need to register again if you've changed your name, address or nationality. </p>
+                  <br>
+                <p class="normal-text">To get more information on the registration process, and also sign-up to vote, use the button below:</p>
+                
+                <div>
+                  <p id="voting-signup-button">
+                    <a class="default-button" target="_blank" href="https://www.gov.uk/register-to-vote">
+                      <span class="more-info-text">More Info</span>
+                      <svg class="apply-svg-graphic" xmlns="http://www.w3.org/2000/svg" width="17.5" height="25" viewBox="0 0 33 34" focusable="false" aria-hidden="true"><path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path></svg>
+                    </a>
+                  </p>
+                </div>
+
+              </div>
+            <div class="horisontal-line-spacer"></div>
+
+
+
+            <h2 id="NHS-Website" class="medium-main-title">> NHS website and Services</h2> 
+              <div class="content-container">
+                <br>
+                  <p class="normal-text">The NHS Website contains lots of helpful information around health and wellbeing.</p>
+                <br>
+                  <p class="normal-text">It is an essential tool to use, especially for young adults arranging appointments or other NHS services themselves for the first time, as opposed to asking parents to do so on their behalf. </p>
+                
+                <div>
+                  <p id="nhs-website-link">
+                    <a class="default-button" target="_blank" href="https://www.nhs.uk/">
+                      <span class="view-here-text">View Here</span>
+                      <svg class="apply-svg-graphic" xmlns="http://www.w3.org/2000/svg" width="17.5" height="25" viewBox="0 0 33 34" focusable="false" aria-hidden="true"><path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path></svg>
+                    </a>
+                  </p>
+                </div>
+
+                <p class="normal-text">In addition, many young-adults will have to start booking their own GP appointments for any health issues they may face. This is not a complicated process, and can now even be done through the NHS website or app, phone E-Consults are avaliable also for fast consultation with your doctor. Use the button below to view all the relevant information involved with booking a GP appointment:</p>
+                <div>
+                  <p id="gp-appointments-button">
+                    <a class="default-button" target="_blank" href="https://www.nhs.uk/nhs-services/gps/gp-appointments-and-bookings/">
+                      <span class="more-info-text">More Info</span>
+                      <svg class="apply-svg-graphic" xmlns="http://www.w3.org/2000/svg" width="17.5" height="25" viewBox="0 0 33 34" focusable="false" aria-hidden="true"><path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path></svg>
+                    </a>
+                  </p>
+                </div>
+
+                <p class="normal-text">If you are not already registered with a General-Practicioner(GP) doctor, use the button below to register with a local GP. It is important to do so, especially for discussing any future health issues that may require a GP doctor:</p>
+                <div>
+                  <p id="gp-signup-button">
+                    <a class="default-button" target="_blank" href="https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/">
+                      <span class="more-info-text">More Info</span>
+                      <svg class="apply-svg-graphic" xmlns="http://www.w3.org/2000/svg" width="17.5" height="25" viewBox="0 0 33 34" focusable="false" aria-hidden="true"><path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path></svg>
+                    </a>
+                  </p>
+                </div>
+
+              </div>
+            <div class="horisontal-line-spacer"></div>
+
+
+
+            <h2 id="git-repo-message" class="medium-main-title">> Another Government Service...</h2> 
+              <div class="content-container">
+                <br>
+                  <p class="normal-text">This website is completely modular, and allows for additional government services to be added that are very useful for young-adults to be aquanted with.</p>
+                <br>
+                  <p class="normal-text">It would be incredibly useful for young-people to have a dedicated GOV.uk hub with all government services in one place, as it is much easier to search a single webpage than multiple government websites.</p>
+                <br>
+                  <p class="normal-text">To view a copy of the HTML and CSS code used to create this site, and review the modularity of the code, use the button below to visit it's dedicated GitHub Repository.</p>
+
+                <div>
+                  <p id="git-repo-link">
+                    <a class="default-button" target="_blank" href="https://github.com">
+                      <span class="view-here-text">View Here</span>
+                      <svg class="apply-svg-graphic" xmlns="http://www.w3.org/2000/svg" width="17.5" height="25" viewBox="0 0 33 34" focusable="false" aria-hidden="true"><path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path></svg>
+                    </a>
+                  </p>
+                </div>
+
+                <p class="normal-text">For <a class="underlined-link" target="_blank" href="https://inversity.co">Inversity</a> challenges, we have to create a video pitch for our solutions. Here is the video-pitch for this website:</p>
+                  <br>
+                <iframe class="video-pitch" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+              </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    <div>
+      <div class="bottom-horisontal-line-spacer"></div>
+        <div class="bottom-nav-bar">
+          <div class="bottom-nav-bar-container">
+            <p class="bottom-nav-bar-text">This website was created for <a class="underlined-link" target="_blank" href="https://inversity.co/challenges">Inversity challenge #4:</a> "Building the future of Government's digital services". A challenge sponsored by Government Digital Services (GDS) of PUBLIC.</p>
+          </div>
+        </div>
+    </div>
+    
+    </div>
+  </body>
+</html>
